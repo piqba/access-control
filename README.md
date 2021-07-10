@@ -1,3 +1,3 @@
-# Strapi application
+# Access control listing
 
-A quick description of your strapi application
+Simple access control list template for security personel.
