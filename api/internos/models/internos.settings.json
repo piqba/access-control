@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "internos",
+  "info": {
+    "name": "Internos",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Fecha": {
+      "type": "date",
+      "required": true
+    },
+    "Matricula": {
+      "type": "string",
+      "required": true
+    },
+    "Nombre_Completo": {
+      "type": "string",
+      "required": true
+    },
+    "CI": {
+      "type": "biginteger",
+      "required": true
+    },
+    "Hora_Entrada": {
+      "type": "time",
+      "required": true
+    },
+    "Hora_Salida": {
+      "type": "time",
+      "required": true
+    },
+    "Observaciones": {
+      "type": "richtext"
+    }
+  }
+}

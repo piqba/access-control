@@ -1,0 +1,57 @@
+{
+  "kind": "collectionType",
+  "collectionName": "visitantes",
+  "info": {
+    "name": "Visitantes",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Fecha": {
+      "type": "date",
+      "required": true
+    },
+    "Nombre_Completo": {
+      "type": "string",
+      "required": true
+    },
+    "CI": {
+      "type": "biginteger",
+      "required": true
+    },
+    "Solapin": {
+      "type": "string"
+    },
+    "Area_Visita": {
+      "type": "string"
+    },
+    "Autorizado_por": {
+      "type": "string"
+    },
+    "Organismo_Empresa": {
+      "type": "string"
+    },
+    "Tipo_vehiculo": {
+      "type": "string"
+    },
+    "Matricula": {
+      "type": "string"
+    },
+    "Hora_entrada": {
+      "type": "time",
+      "required": true
+    },
+    "Hora_salida": {
+      "type": "time",
+      "required": true
+    },
+    "Facturas_ordenes_trabajo": {
+      "type": "richtext"
+    }
+  }
+}
